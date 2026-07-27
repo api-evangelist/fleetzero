@@ -1,7 +1,24 @@
 aid: fleetzero
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fleetzero.png
 name: Fleetzero
-description: Fleetzero is a company surfaced as a portfolio company of obvious-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Fleetzero is a Houston-based maritime technology company, founded in 2021 and led by U.S. Navy
+  veterans and shipping-industry experts, building battery-electric energy and robotics systems to decarbonize
+  ocean shipping at cost parity with fossil fuels. Its Leviathan modular marine energy storage system,
+  3.8 MWh marine battery containers, and 55 MWh battery barges provide propulsion power and mobile charging
+  infrastructure for cargo vessels. Backed by Obvious Ventures, Fleetzero was added to the API Evangelist
+  network as a portfolio-lead stub; it currently publishes no public developer, API, or documentation
+  surface, so this profile carries company identity and infrastructure signals only.
 url: https://raw.githubusercontent.com/api-evangelist/fleetzero/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Maritime
+- Shipping
+- Batteries
+- Energy Storage
+- Electrification
+- Robotics
+- Decarbonization
+- Cleantech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,18 @@ maintainers:
 common:
 - type: Website
   url: https://fleetzero.com
+- type: About
+  url: https://fleetzero.com/about-fleetzero
+- type: Contact
+  url: https://fleetzero.com/contact
+- type: Careers
+  url: https://jobs.lever.co/fleetzero
+- type: Media
+  url: https://fleetzero.com/media
+- type: DomainSecurity
+  url: security/fleetzero-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
